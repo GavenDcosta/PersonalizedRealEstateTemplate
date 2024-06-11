@@ -16,9 +16,8 @@ function Navbar() {
           <span>M&G Real-Estate</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/about">About</a>
+        <a href="/list">Properties</a>
       </div>
       <div className="right">
         {currentUser ? (
@@ -47,11 +46,14 @@ function Navbar() {
         </div>
         <div className={open ? "menu active" : "menu"}>
           <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign in</a>
-          <a href="/">Sign up</a>
+          <a href="/about">About</a>
+          <a href="/list">Properties</a>
+          {!currentUser && (
+            <>
+             <a href="/login">Sign in</a>
+             <a href="/register">Sign up</a>
+            </>
+          )}
         </div>
       </div>
     </nav>
