@@ -15,6 +15,8 @@ const Layout = () => {
            <div className="content">
              <Outlet />
            </div>
+
+           <h3>© {new Date().getFullYear()} Copyright: M&G WebWorks</h3>
         </div>
    
   )
@@ -40,6 +42,8 @@ const RequireAuth = () => {
            <div className="content">
              <Outlet />
            </div>
+
+           
         </div>
       )  
   )

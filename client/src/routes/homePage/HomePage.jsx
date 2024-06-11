@@ -36,11 +36,12 @@ const HomePage = () => {
                     <h2>Property Ready</h2>
                 </div>
             </div>
+            
           </div>
         </div>
         <div className="imgContainer">
           <img src="/bg.png" alt="" />
-        </div>
+        </div> 
     </div>
   )
 }

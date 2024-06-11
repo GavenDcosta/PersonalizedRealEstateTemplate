@@ -36,6 +36,8 @@ const ContactTheAgent = () => {
               </div>
           </Link>
         </div>
+
+        <h3>© {new Date().getFullYear()} Copyright: M&G WebWorks</h3>
       </div>
     </div>
   )
