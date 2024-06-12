@@ -36,6 +36,9 @@ const HomePage = () => {
                     <h2>Property Ready</h2>
                 </div>
             </div>
+
+            
+           <h3>© {new Date().getFullYear()} Copyright: M&G WebWorks</h3>
             
           </div>
         </div>

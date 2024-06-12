@@ -16,7 +16,7 @@ const Layout = () => {
              <Outlet />
            </div>
 
-           <h3>© {new Date().getFullYear()} Copyright: M&G WebWorks</h3>
+
         </div>
    
   )
