@@ -2,12 +2,12 @@
   "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "build": "prisma generate && next build"
+    "build": "prisma generate"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,9 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "nodemon": "^3.1.3",
-    "prisma": "^5.15.0",
     "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0"
   }
 }
