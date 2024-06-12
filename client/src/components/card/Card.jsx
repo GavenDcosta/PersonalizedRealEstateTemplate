@@ -72,7 +72,7 @@ const Card = ({item, isProfile}) => {
           </div>
           <div className="icons">
               {
-                !isProfile && (
+                currentUser && !isProfile && (
                   <div className="icon" 
                    onClick={handleSave}
                    style={{
