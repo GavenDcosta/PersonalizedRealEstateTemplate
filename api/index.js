@@ -9,10 +9,12 @@ import prisma from "./lib/prisma.js"
 
 const app = express()
 
-app.use(cors({
-    origin: '*',
-}))
-
+const corsOptions = {
+    origin: "https://mandg-personalized-real-estate-template.vercel.app",
+    credentials: true,
+  };
+  
+app.use(cors(corsOptions));
 app.use(express.json())
 app.use(cookieParser())
 
