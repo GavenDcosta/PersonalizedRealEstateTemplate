@@ -6,7 +6,7 @@ import Pin from '../pin/Pin'
   
 const Map = ({items}) => {
   return (
-    <MapContainer center={items.length === 1 ? [items[0].latitude, items[0].longitude] : [52.4797, -1.90269] } zoom={items.length === 1 ? 7 : 4} scrollWheelZoom={false} className='map'>
+    <MapContainer center={items.length === 1 ? [items[0].latitude, items[0].longitude] : [20.5937, -78.9629] } zoom={items.length === 1 ? 7 : 2} scrollWheelZoom={false} className='map'>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
