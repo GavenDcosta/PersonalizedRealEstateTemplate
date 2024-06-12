@@ -7,7 +7,11 @@ import testRoute from "./routes/test.route.js"
 import userRoute from "./routes/user.route.js"
 
 const app = express()
-app.use(cors({origin: '*', credentials: true}))
+
+app.use(cors({
+    origin: '*',
+}))
+
 app.use(express.json())
 app.use(cookieParser())
 
