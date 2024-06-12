@@ -5,7 +5,7 @@ import markerImg from "./marker-icon-2x.png"
 
 function Pin({ item }) {
   return (
-    <Marker position={[item.latitude, item.longitude]} icons={markerImg}>
+    <Marker position={[item.latitude, item.longitude]} icon={markerImg}>
       <Popup>
         <div className="popupContainer">
           <img src={item.images[0]} alt="" />
