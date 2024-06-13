@@ -21,7 +21,7 @@ const HomePage = () => {
             </p>
             <SearchBar />
             <div className="boxes">
-                <div className="box">
+                {/* <div className="box">
                     <h1>16+</h1>
                     <h2>Years of Expirence</h2>
                 </div>
@@ -34,11 +34,13 @@ const HomePage = () => {
                 <div className="box">
                     <h1>1200+</h1>
                     <h2>Property Ready</h2>
-                </div>
+                </div> */}
+
+                <h3>© {new Date().getFullYear()} Copyright: M&G WebWorks</h3>
             </div>
 
             
-           <h3>© {new Date().getFullYear()} Copyright: M&G WebWorks</h3>
+           
             
           </div>
         </div>
