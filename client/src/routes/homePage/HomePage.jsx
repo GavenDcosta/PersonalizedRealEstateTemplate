@@ -13,12 +13,12 @@ const HomePage = () => {
     <div className='homePage'>
         <div className="textContainer">
           <div className="wrapper">
-            <h1 className='title'>
-                Find Real Estate & Get Your Dream Place 
-            </h1>
-            <p className="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolor eum omnis minus corrupti laudantium iure ad eveniet! Sit, sapiente.
-            </p>
+              <h1 className='title'>
+                  Find Your Dream Property with Expert Guidance
+              </h1>
+              <p className="description">
+                  Welcome to my real estate platform! As an experienced and dedicated agent, I am here to help you find your perfect property. Whether you're looking to buy, sell, or rent, I provide personalized service to meet all your real estate needs. Let's work together to turn your real estate dreams into reality.
+              </p>
             <SearchBar />
             <div className="boxes">
                 {/* <div className="box">

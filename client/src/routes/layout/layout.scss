@@ -33,6 +33,10 @@
   .content {
     // flex: 1;
     min-height: calc(100vh - 100px);
+
+    @include sm{
+      overflow-y: scroll;
+    }
   }
 
 }
