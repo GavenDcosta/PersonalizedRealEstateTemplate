@@ -22,9 +22,9 @@ function Navbar() {
       <div className="right">
         {currentUser ? (
           <div className="user">
+            <Link to="/profile" className="profile">
             <img src={currentUser.avatar || "/noavatar.jpg"} alt="" />
             <span>{currentUser.username}</span>
-            <Link to="/profile" className="profile">
               <div className="notification">😄</div>
               <span>Profile</span>
             </Link>
