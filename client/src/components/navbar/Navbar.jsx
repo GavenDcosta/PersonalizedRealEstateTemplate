@@ -50,6 +50,7 @@ function Navbar() {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/list">Properties</Link>
+          <Link to="/profile">Profile</Link>
           {!currentUser && (
             <>
              <Link to="/login">Sign in</Link>
