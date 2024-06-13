@@ -7,7 +7,7 @@ nav {
   align-items: center;
 
   @include lg{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 
   @include sm{
@@ -92,7 +92,7 @@ nav {
 
       .profile{
         padding: 12px 24px;
-        background-color: #fece51;
+        background-color: lime;
         cursor: pointer;
         border: none;
         position: relative;
@@ -115,7 +115,7 @@ nav {
     }
 
     .register {
-      background-color: #fece51;
+      background-color: lime;
     }
 
     .menuIcon {

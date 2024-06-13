@@ -76,7 +76,7 @@ const Card = ({item, isProfile}) => {
                   <div className="icon" 
                    onClick={handleSave}
                    style={{
-                     backgroundColor: saved ? "#fece51" : "white",
+                     backgroundColor: saved ? "lime" : "white",
                    }}>
                        <img src="/save.png" alt="" />
                   </div>
