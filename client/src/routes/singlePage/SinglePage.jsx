@@ -51,7 +51,7 @@ function SinglePage() {
             <div
               className="bottom"
               dangerouslySetInnerHTML={{
-                __html: DOMPurify.sanitize(post.postDetail.desc),
+                __html: DOMPurify.sanitize(post.postDetail.description),
               }}
             ></div>
           </div>
